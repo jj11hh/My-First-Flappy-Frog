@@ -637,7 +637,7 @@ def main():
     winsize = 144*SCALE*PLAYERS, 256*SCALE
     screen = pygame.display.set_mode(winsize)
 
-    pygame.display.set_caption("My-First-Flappy-Bird Version {}".format(constants.VERSION))
+    pygame.display.set_caption("My-First-Flappy-Frog Version {}".format(constants.VERSION))
 
     try:
         splash = pygame.image.load(
